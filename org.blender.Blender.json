@@ -1,8 +1,8 @@
 {
     "id": "org.blender.Blender",
-    "branch": "stable",
+    "branch": "unstable",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
+    "runtime-version": "unstable",
     "sdk": "org.freedesktop.Sdk",
     "command": "blender",
     "rename-desktop-file": "blender.desktop",
