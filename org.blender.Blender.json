@@ -612,8 +612,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.blender.org/source/blender-2.80.tar.gz",
-                    "sha256": "cd9d7e505c1f6e63a4f72366ed04d446859977eeb34cde21283aaea6a304a5c0"
+                    "url": "https://github.com/Bforartists/Bforartists/archive/vbfa2_0.7.0.tar.gz",
+                    "sha256": "14dbb93ae57b32014a5852c9eb1dc8a8e8f0abe606d37acf7859f0d5b264ae46"
                 },
                 {
                     "type": "file",
