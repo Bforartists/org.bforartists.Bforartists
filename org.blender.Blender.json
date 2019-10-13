@@ -1,9 +1,9 @@
 {
-    "id": "org.blender.Blender",
+    "id": "org.bforartists.Bforartists",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
-    "command": "blender",
+    "command": "bforartists",
     "rename-desktop-file": "blender.desktop",
     "rename-icon": "blender",
     "finish-args": [
@@ -15,7 +15,17 @@
         "--filesystem=host"
         ],
     "modules": [
-        "shared-modules/glu/glu-9.0.0.json",
+        {
+            "name": "glu",
+            "sources": [
+              {
+                "type": "archive",
+                "url": "https://mesa.freedesktop.org/archive/glu/glu-9.0.1.tar.gz",
+                "sha256": "f6f484cfcd51e489afe88031afdea1e173aa652697e4c19ddbcb8260579a10f7"
+              }
+            ],
+            "cleanup": [ "/include", "/lib/*.a", "/lib/*.la", "/lib/pkgconfig" ]
+        },
         "shared-modules/glew/glew.json",
         {
             "name": "numpy",
@@ -544,7 +554,7 @@
         },
         {
             "name": "blender",
-            "buildsystem": "cmake-ninja",
+            "buildsystem": "cmake",
             "builddir": true,
             "config-opts": [
                 /* Same as upstream official builds */
