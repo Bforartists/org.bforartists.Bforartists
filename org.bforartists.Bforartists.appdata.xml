@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>org.bforartists.Bforartists</id>
+    <launchable type="desktop-id">org.bforartists.Bforartists.desktop</launchable>
+    <provides>
+        <id>bforartists.desktop</id>
+    </provides>
+    <name>Bforartists</name>
+    <summary>Free and open source 3D creation suite</summary>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0</project_license>
+    <description>
+        <p>
+            Bforartists is a fork of the popular 3D software Blender, with the goal to improve the graphical UI, and to increase the usability.
+        </p>
+    </description>
+    <url type="homepage">https://www.bforartists.de/</url>
+    <url type="help">https://www.bforartists.de/forum</url>
+    <url type="bugtracker">https://github.com/Bforartists/Bforartists/issues</url>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://user-images.githubusercontent.com/13919702/66110215-9d7cd500-e5c6-11e9-9062-afa53f825997.jpg</image>
+        </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1" />
+    <releases>
+        <release version="Alpha 0.7.0" date="2019-10-03">
+            <description>
+                <p>
+                Hello Friends,
+
+We have the next version of Bforartists 2 ready. Bforartists 2 Alpha 0.7.0
+
+The binary downloads can as usual also be found in the download section of the official webpage. https://www.bforartists.de/content/download
+And the release note is here: https://www.bforartists.de/wiki/bforartists2releasenotev070
+
+As promised again a rather small release in terms of the number of commits. Around 100. This release finishes the work at redoing the icons. Over 1400 icons are cleaned, converted and partially redone. We have now a consistent icon set with unified look and based at one color palette.
+
+We have the icons now separated from the repository. Every single icon can now be found in a file repository. Which can be found here: https://github.com/Bforartists/files/tree/master/iconset_bforartists_2
+
+Bedsides that it's mainly the usual small fixes and cleanups. Some double entries removed. Some menus cleaned up. Fixes at the theming and the keymap. And some other minor changes. And as usual, Bforartists is up to date with the latest changes in the Blender master.
+
+Bforartists is a fork of the popluar open source 3d software Blender.The primary goal of Bforartists is to deliver a better graphical UI and a better usability. Bforartists 2 Alpha 0.7.0 is based at Blender 2.81 Alpha. And is of course free.
+                </p>
+            </description>
+        </release>
+  </releases>
+</component>
