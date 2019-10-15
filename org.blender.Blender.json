@@ -553,8 +553,8 @@
             ]
         },
         {
-            "name": "blender",
-            "buildsystem": "cmake",
+            "name": "bforartists",
+            "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
                 /* Same as upstream official builds */
@@ -617,7 +617,7 @@
             ],
             "post-install": [
                 "mkdir -p /app/share/appdata",
-                "install -m644 -p ../org.blender.Blender.appdata.xml /app/share/appdata/"
+                "install -m644 -p ../org.bforartists.Bforartists.appdata.xml /app/share/appdata/"
             ],
             "sources": [
                 {
@@ -627,12 +627,12 @@
                 },
                 {
                     "type": "file",
-                    "path": "org.blender.Blender.appdata.xml"
+                    "path": "org.bforartists.Bforartists.appdata.xml"
                 }
             ],
             "cleanup": [
                 "/bin/blender-thumbnailer.py",
-                "/share/blender/2.80/scripts/addons/cycles/source",
+                "/share/blender/2.81/scripts/addons/cycles/source",
                 "/share/doc"
             ]
         }
