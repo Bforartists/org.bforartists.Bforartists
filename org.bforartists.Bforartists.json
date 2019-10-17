@@ -617,7 +617,8 @@
             ],
             "post-install": [
                 "mkdir -p /app/share/appdata",
-                "install -m644 -p ../org.bforartists.Bforartists.appdata.xml /app/share/appdata/"
+                "install -m644 -p ../org.bforartists.Bforartists.appdata.xml /app/share/appdata/",
+                "mv /app/share/blender /app/share/bforartists"
             ],
             "sources": [
                 {
